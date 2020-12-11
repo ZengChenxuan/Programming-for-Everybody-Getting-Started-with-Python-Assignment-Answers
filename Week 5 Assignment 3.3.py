@@ -4,7 +4,9 @@ try:
 except:
     print('ERROR: Plz enter numerical input\nsystem exiting...')
     quit()
-if score1>=0.9 :
+if score1>1:
+    print('Error: Exceeding the max grade')
+elif score1>=0.9 :
     print('A')
 elif score1>=0.8 :
     print('B')
